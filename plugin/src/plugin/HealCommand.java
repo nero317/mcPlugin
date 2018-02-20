@@ -17,7 +17,7 @@ public class HealCommand implements CommandExecutor {
             sender.sendMessage(ChatColor.RED + "플레이어만 사용 가능합니다.");
         }
         Player player = (Player) sender;
-
+        
         player.setHealth(player.getHealthScale());
         player.setFoodLevel(20);
         player.setFireTicks(0);
