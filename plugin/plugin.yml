@@ -1,6 +1,6 @@
 name: First Minecraft Plugin
 version: 1.0
-author: Devonnuri
+author: NeRo
 description: My First Minecraft Plugin
 
 main: plugin.Main
@@ -8,3 +8,5 @@ main: plugin.Main
 Commands:
   heal:
     description: "heal"
+  tp:
+    description: "Teleport"

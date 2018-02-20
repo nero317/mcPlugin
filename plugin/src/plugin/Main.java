@@ -11,6 +11,7 @@ public class Main extends JavaPlugin {
         Bukkit.getConsoleSender().sendMessage(ChatColor.GREEN + "플러그인 활성화.");
 
         getCommand("heal").setExecutor(new HealCommand());
+        getCommand("tp").setExecutor(new TeleportCommand());
     }
 
     @Override
